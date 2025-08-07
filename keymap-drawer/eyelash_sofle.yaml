@@ -43,8 +43,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
-  - C
-  - V
+  - {t: C, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: V, h: '$$mdi:apple-keyboard-control$$'}
   - B
   - $$mdi:arrow-right-bold$$
   - N
