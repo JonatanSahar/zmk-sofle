@@ -81,8 +81,8 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-esc$$
   - HOME
-  - PG UP
   - PgDn
+  - PG UP
   - END
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -90,8 +90,8 @@ layers:
   - PgDn
   - PgUp
   - END
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - F11
+  - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -114,9 +114,9 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB BRI
   - RGB BRD
-  - Ins
-  - F11
-  - F12
+  - HOME
+  - END
+  - INS
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
