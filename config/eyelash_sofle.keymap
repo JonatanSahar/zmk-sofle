@@ -85,9 +85,9 @@
         layer_1 {
             bindings = <
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8        &kp F9     &kt PRINTSCREEN   &kp DELETE
-&kp ESCAPE  &kp HOME         &kp PG_UP       &kp PAGE_DOWN    &kp END          &mkp MB4           &mmv MOVE_DOWN   &kp HOME         &kp PAGE_DOWN    &kp PAGE_UP   &kp END    &kp MINUS         &kp EQUAL
+&kp ESCAPE  &kp HOME         &kp PAGE_DOWN   &kp PG_UP        &kp END          &mkp MB4           &mmv MOVE_DOWN   &kp HOME         &kp PAGE_DOWN    &kp PAGE_UP   &kp END    &kp F11           &kp F12
 &trans      &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP_ARROW  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT    &kp F11    &kp F12           &trans
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp HOME      &kp END    &kp INS           &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &kp BACKSPACE    &kp DELETE    &trans     &trans
             >;
 
@@ -115,6 +115,8 @@
 &trans  &trans     &trans        &trans     &trans     &trans    &trans  &trans     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans      &trans  &trans
 &trans  &trans     &trans        &trans     &trans     &trans    &trans  &trans     &trans                &trans                 &trans      &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
     };
 };
