@@ -44,7 +44,7 @@
         flavor = "balanced";
         tapping-term-ms = <280>;
         quick-tap-ms = <175>;
-        require-prior-idle-ms = <300>;
+        require-prior-idle-ms = <270>;
         hold-trigger-on-release;
         hold-trigger-key-positions = <43 42 41 30 29 28 14 15 16 17 18 29 31 27 40 39 13 26 0 1 2 3 4 5 44 56 55 54 53 57>;
     };
