@@ -44,7 +44,7 @@
         flavor = "balanced";
         tapping-term-ms = <280>;
         quick-tap-ms = <175>;
-        require-prior-idle-ms = <270>;
+        require-prior-idle-ms = <200>;
         hold-trigger-on-release;
         hold-trigger-key-positions = <43 42 41 30 29 28 14 15 16 17 18 29 31 27 40 39 13 26 0 1 2 3 4 5 44 56 55 54 53 57>;
     };
@@ -58,7 +58,7 @@
         flavor = "balanced";
         tapping-term-ms = <280>;
         quick-tap-ms = <175>;
-        require-prior-idle-ms = <300>;
+        require-prior-idle-ms = <200>;
         hold-trigger-on-release;
         hold-trigger-key-positions = <47 34 35 48 49 36 7 8 9 10 11 12 20 21 22 23 24 25 33 34 35 36 37 38 46 47 48 49 50 51 60 61 62 63 59>;
     };
@@ -109,11 +109,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans     &trans        &trans     &trans     &trans    &trans  &trans     &trans                &trans                 &trans      &trans  &trans
-&trans  &trans     &trans        &kp UNDER  &kp MINUS  &trans    &trans  &kp CARET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR  &trans  &trans
-&trans  &kp TILDE  &kp ASTERISK  &kp PLUS   &kp EQUAL  &trans    &trans  &trans     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON   &trans  &trans
-&trans  &trans     &trans        &trans     &trans     &trans    &trans  &trans     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans      &trans  &trans
-&trans  &trans     &trans        &trans     &trans     &trans    &trans  &trans     &trans                &trans                 &trans      &trans
+&trans  &trans     &trans        &trans     &trans     &trans    &trans  &trans  &trans                &trans                 &kp UNDER  &kp MINUS  &trans
+&trans  &trans     &trans        &kp UNDER  &kp MINUS  &trans    &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS   &kp EQUAL  &trans
+&trans  &kp TILDE  &kp ASTERISK  &kp PLUS   &kp EQUAL  &trans    &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON  &trans     &trans
+&trans  &trans     &trans        &trans     &trans     &trans    &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans     &trans     &trans
+&trans  &trans     &trans        &trans     &trans     &trans    &trans  &trans  &trans                &trans                 &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
